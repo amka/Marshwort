@@ -120,9 +120,9 @@
 									<string key="NSCellIdentifier">_NS:9</string>
 									<reference key="NSControlView" ref="339101523"/>
 									<int key="NSButtonFlags">-2038284288</int>
-									<int key="NSButtonFlags2">163</int>
+									<int key="NSButtonFlags2">268435619</int>
 									<string key="NSAlternateContents"/>
-									<string key="NSKeyEquivalent"/>
+									<string key="NSKeyEquivalent">2</string>
 									<int key="NSPeriodicDelay">400</int>
 									<int key="NSPeriodicInterval">75</int>
 									<object class="NSMenuItem" key="NSMenuItem" id="1018006747">
@@ -214,9 +214,9 @@
 									<string key="NSCellIdentifier">_NS:9</string>
 									<reference key="NSControlView" ref="934670162"/>
 									<int key="NSButtonFlags">-2038284288</int>
-									<int key="NSButtonFlags2">163</int>
+									<int key="NSButtonFlags2">268435619</int>
 									<string key="NSAlternateContents"/>
-									<string key="NSKeyEquivalent"/>
+									<string key="NSKeyEquivalent">1</string>
 									<int key="NSPeriodicDelay">400</int>
 									<int key="NSPeriodicInterval">75</int>
 									<object class="NSMenuItem" key="NSMenuItem" id="1064373948">
@@ -812,6 +812,7 @@
 				<string key="NSScreenRect">{{0, 0}, {1280, 778}}</string>
 				<string key="NSMinSize">{94, 144}</string>
 				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
+				<int key="NSWindowCollectionBehavior">128</int>
 				<bool key="NSWindowIsRestorable">YES</bool>
 			</object>
 			<object class="NSArrayController" id="516521327">

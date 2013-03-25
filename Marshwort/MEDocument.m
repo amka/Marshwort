@@ -47,8 +47,13 @@
         german.name = NSLocalizedString(@"GERMAN_TITLE", "German title");
         german.flag = [NSImage imageNamed:@"de.png"];
         
-        languagesFrom = [NSArray arrayWithObjects:english, italian, german, russian, turkey, ukranian, nil];
-        languagesTo = [NSArray arrayWithObjects:english, italian, german, russian, turkey, ukranian, nil];
+        MELanguage *polish = [[MELanguage alloc] init];
+        polish.code = @"pl";
+        polish.name = NSLocalizedString(@"POLISH_TITLE", "Polish title");
+        polish.flag = [NSImage imageNamed:@"pl.png"];
+        
+        languagesFrom = [NSMutableArray arrayWithObjects:english, italian, german, polish, russian, turkey, ukranian, nil];
+        languagesTo = [NSMutableArray arrayWithObjects:english, italian, german, polish, russian, turkey, ukranian, nil];
         
         userDefaults = [NSUserDefaults standardUserDefaults];
     }
@@ -145,6 +150,9 @@
 
 - (void)beginTranslateTimer
 {
+    if ([[_sourceTextView string] length] == 0)
+        return;
+    
     if (!translateTimer)
         translateTimer = [NSTimer scheduledTimerWithTimeInterval:0.5f
                                                           target:self
@@ -153,6 +161,7 @@
                                                          repeats:NO];
     [_inworkIndicator startAnimation:self];
 }
+
 
 - (IBAction)beginTranslate:(id)sender
 {

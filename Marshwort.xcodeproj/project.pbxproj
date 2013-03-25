@@ -25,6 +25,7 @@
 		A91FFE2016FF909D0036F0BD /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A91FFE1616FF909D0036F0BD /* AFXMLRequestOperation.m */; };
 		A91FFE2116FF909D0036F0BD /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A91FFE1816FF909D0036F0BD /* UIImageView+AFNetworking.m */; };
 		A931748F17003B4C00350663 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A931749117003B4C00350663 /* Localizable.strings */; };
+		A9317494170047AC00350663 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A9317493170047AC00350663 /* README.md */; };
 		A9A0695A16FE3D3F005EBFB8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A0695916FE3D3F005EBFB8 /* Cocoa.framework */; };
 		A9A0696416FE3D3F005EBFB8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9A0696216FE3D3F005EBFB8 /* InfoPlist.strings */; };
 		A9A0696616FE3D3F005EBFB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A0696516FE3D3F005EBFB8 /* main.m */; };
@@ -71,6 +72,7 @@
 		A931748C17003B2D00350663 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = ru; path = ru.lproj/Credits.rtf; sourceTree = "<group>"; };
 		A931749017003B4C00350663 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A931749217003B4D00350663 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9317493170047AC00350663 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		A9A0695616FE3D3F005EBFB8 /* Marshwort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marshwort.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A0695916FE3D3F005EBFB8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		A9A0695C16FE3D3F005EBFB8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -146,6 +148,7 @@
 		A9A0694D16FE3D3F005EBFB8 = {
 			isa = PBXGroup;
 			children = (
+				A9317493170047AC00350663 /* README.md */,
 				A91FFE0516FF909C0036F0BD /* AFNetworking */,
 				A9A0697B16FE3EC1005EBFB8 /* SystemConfiguration.framework */,
 				A9A0695F16FE3D3F005EBFB8 /* Marshwort */,
@@ -275,6 +278,7 @@
 				A91FFE0216FF7FC10036F0BD /* en.icns in Resources */,
 				A91FFE0416FF7FF30036F0BD /* tr.icns in Resources */,
 				A931748F17003B4C00350663 /* Localizable.strings in Resources */,
+				A9317494170047AC00350663 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

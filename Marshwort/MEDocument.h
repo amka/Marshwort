@@ -9,8 +9,8 @@
 #import <Cocoa/Cocoa.h>
 
 @interface MEDocument : NSDocument <NSTextViewDelegate> {
-    NSArray *languagesFrom;
-    NSArray *languagesTo;
+    NSMutableArray *languagesFrom;
+    NSMutableArray *languagesTo;
     NSString *sourceText;
     NSString *translatedText;
     NSTimer *translateTimer;
