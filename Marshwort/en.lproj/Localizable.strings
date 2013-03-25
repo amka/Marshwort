@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  Marshwort
+
+  Created by Andrey M. on 25.03.13.
+  Copyright (c) 2013 Andrey M. All rights reserved.
+*/
+
+"ENGLISH_TITLE" = "English";
+"ITALIAN_TITLE" = "Italian";
+"SPANISH_TITLE" = "Spanish";
+"GERMAN_TITLE" = "German";
+"POLISH_TITLE" = "Polish";
+"RUSSIAN_TITLE" = "Russian";
+"TURKEY_TITLE" = "Turkey";
+"UKRAINIAN_TITLE" = "Ukrainian";

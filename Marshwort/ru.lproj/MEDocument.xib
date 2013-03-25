@@ -50,7 +50,7 @@
 			<object class="NSWindowTemplate" id="275939982">
 				<int key="NSWindowStyleMask">15</int>
 				<int key="NSWindowBacking">2</int>
-				<string key="NSWindowRect">{{133, 235}, {543, 267}}</string>
+				<string key="NSWindowRect">{{133, 235}, {621, 364}}</string>
 				<int key="NSWTFlags">1886912512</int>
 				<string key="NSWindowTitle">Window</string>
 				<string key="NSWindowClass">NSWindow</string>
@@ -71,12 +71,12 @@
 								<characters key="NS.bytes">5BA5627D-8EDF-48E6-B671-52C46DD8D846</characters>
 							</object>
 							<string key="NSToolbarItemLabel"/>
-							<string key="NSToolbarItemPaletteLabel">Translating…</string>
+							<string key="NSToolbarItemPaletteLabel">Перевожу…</string>
 							<nil key="NSToolbarItemToolTip"/>
 							<object class="NSProgressIndicator" key="NSToolbarItemView" id="71561649">
 								<reference key="NSNextResponder"/>
 								<int key="NSvFlags">268</int>
-								<string key="NSFrame">{{32, 14}, {16, 16}}</string>
+								<string key="NSFrame">{{28, 14}, {16, 16}}</string>
 								<reference key="NSSuperview"/>
 								<reference key="NSNextKeyView"/>
 								<string key="NSReuseIdentifierKey">_NS:945</string>
@@ -98,8 +98,8 @@
 							<object class="NSMutableString" key="NSToolbarItemIdentifier">
 								<characters key="NS.bytes">5BC44654-5D7E-442C-8799-955B50304593</characters>
 							</object>
-							<string key="NSToolbarItemLabel">Translation Language</string>
-							<string key="NSToolbarItemPaletteLabel">Translation Language</string>
+							<string key="NSToolbarItemLabel">Язык перевода</string>
+							<string key="NSToolbarItemPaletteLabel">Язык перевода</string>
 							<nil key="NSToolbarItemToolTip"/>
 							<object class="NSPopUpButton" key="NSToolbarItemView" id="339101523">
 								<reference key="NSNextResponder"/>
@@ -196,8 +196,8 @@
 							<object class="NSMutableString" key="NSToolbarItemIdentifier">
 								<characters key="NS.bytes">D7AE9F7B-EF0C-4F34-8692-EFB615B2A90F</characters>
 							</object>
-							<string key="NSToolbarItemLabel">Source Language</string>
-							<string key="NSToolbarItemPaletteLabel">Source Language</string>
+							<string key="NSToolbarItemLabel">Язык текста</string>
+							<string key="NSToolbarItemPaletteLabel">Язык текста</string>
 							<nil key="NSToolbarItemToolTip"/>
 							<object class="NSPopUpButton" key="NSToolbarItemView" id="934670162">
 								<reference key="NSNextResponder"/>
@@ -284,13 +284,13 @@
 							<object class="NSMutableString" key="NSToolbarItemIdentifier">
 								<characters key="NS.bytes">ED2B1D3B-628E-4850-B591-963ED5799E6A</characters>
 							</object>
-							<string key="NSToolbarItemLabel">Change</string>
-							<string key="NSToolbarItemPaletteLabel">Change</string>
+							<string key="NSToolbarItemLabel">Поменять</string>
+							<string key="NSToolbarItemPaletteLabel">Поменять</string>
 							<nil key="NSToolbarItemToolTip"/>
 							<object class="NSButton" key="NSToolbarItemView" id="842696266">
 								<reference key="NSNextResponder"/>
 								<int key="NSvFlags">268</int>
-								<string key="NSFrame">{{10, 14}, {29, 28}}</string>
+								<string key="NSFrame">{{16, 14}, {29, 28}}</string>
 								<reference key="NSSuperview"/>
 								<reference key="NSNextKeyView"/>
 								<string key="NSReuseIdentifierKey">_NS:22</string>
@@ -505,7 +505,7 @@
 																<string>WebURLsWithTitlesPboardType</string>
 																<string>public.url</string>
 															</set>
-															<string key="NSFrameSize">{253, 267}</string>
+															<string key="NSFrameSize">{292, 364}</string>
 															<reference key="NSSuperview" ref="1020878783"/>
 															<reference key="NSWindow"/>
 															<reference key="NSNextKeyView" ref="530736887"/>
@@ -525,7 +525,7 @@
 																	<nil key="NSDelegate"/>
 																</object>
 																<reference key="NSTextView" ref="220375202"/>
-																<double key="NSWidth">253</double>
+																<double key="NSWidth">292</double>
 																<int key="NSTCFlags">1</int>
 															</object>
 															<object class="NSTextViewSharedData" key="NSSharedData">
@@ -577,7 +577,7 @@
 															<nil key="NSDelegate"/>
 														</object>
 													</array>
-													<string key="NSFrameSize">{253, 267}</string>
+													<string key="NSFrameSize">{292, 364}</string>
 													<reference key="NSSuperview" ref="432184721"/>
 													<reference key="NSWindow"/>
 													<reference key="NSNextKeyView" ref="220375202"/>
@@ -608,7 +608,7 @@
 												<object class="NSScroller" id="530736887">
 													<reference key="NSNextResponder" ref="432184721"/>
 													<int key="NSvFlags">256</int>
-													<string key="NSFrame">{{253, 0}, {15, 267}}</string>
+													<string key="NSFrame">{{292, 0}, {15, 364}}</string>
 													<reference key="NSSuperview" ref="432184721"/>
 													<reference key="NSWindow"/>
 													<reference key="NSNextKeyView" ref="56450213"/>
@@ -635,7 +635,7 @@
 													<double key="NSPercent">0.94565218687057495</double>
 												</object>
 											</array>
-											<string key="NSFrameSize">{268, 267}</string>
+											<string key="NSFrameSize">{307, 364}</string>
 											<reference key="NSSuperview" ref="753890581"/>
 											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="419603062"/>
@@ -649,7 +649,7 @@
 											<double key="NSMagnification">1</double>
 										</object>
 									</array>
-									<string key="NSFrameSize">{268, 267}</string>
+									<string key="NSFrameSize">{307, 364}</string>
 									<reference key="NSSuperview" ref="273053525"/>
 									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="432184721"/>
@@ -671,7 +671,7 @@
 														<object class="NSTextView" id="646001383">
 															<reference key="NSNextResponder" ref="58881784"/>
 															<int key="NSvFlags">2322</int>
-															<string key="NSFrameSize">{250, 267}</string>
+															<string key="NSFrameSize">{289, 364}</string>
 															<reference key="NSSuperview" ref="58881784"/>
 															<reference key="NSWindow"/>
 															<reference key="NSNextKeyView" ref="599950462"/>
@@ -691,7 +691,7 @@
 																	<nil key="NSDelegate"/>
 																</object>
 																<reference key="NSTextView" ref="646001383"/>
-																<double key="NSWidth">250</double>
+																<double key="NSWidth">289</double>
 																<int key="NSTCFlags">1</int>
 															</object>
 															<object class="NSTextViewSharedData" key="NSSharedData">
@@ -718,7 +718,7 @@
 															<nil key="NSDelegate"/>
 														</object>
 													</array>
-													<string key="NSFrameSize">{250, 267}</string>
+													<string key="NSFrameSize">{289, 364}</string>
 													<reference key="NSSuperview" ref="282929473"/>
 													<reference key="NSWindow"/>
 													<reference key="NSNextKeyView" ref="646001383"/>
@@ -746,7 +746,7 @@
 												<object class="NSScroller" id="599950462">
 													<reference key="NSNextResponder" ref="282929473"/>
 													<int key="NSvFlags">256</int>
-													<string key="NSFrame">{{250, 0}, {15, 267}}</string>
+													<string key="NSFrame">{{289, 0}, {15, 364}}</string>
 													<reference key="NSSuperview" ref="282929473"/>
 													<reference key="NSWindow"/>
 													<reference key="NSNextKeyView"/>
@@ -773,7 +773,7 @@
 													<double key="NSPercent">0.94565218687057495</double>
 												</object>
 											</array>
-											<string key="NSFrameSize">{265, 267}</string>
+											<string key="NSFrameSize">{304, 364}</string>
 											<reference key="NSSuperview" ref="56450213"/>
 											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="910176383"/>
@@ -787,7 +787,7 @@
 											<double key="NSMagnification">1</double>
 										</object>
 									</array>
-									<string key="NSFrame">{{278, 0}, {265, 267}}</string>
+									<string key="NSFrame">{{317, 0}, {304, 364}}</string>
 									<reference key="NSSuperview" ref="273053525"/>
 									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="282929473"/>
@@ -795,7 +795,7 @@
 									<string key="NSClassName">NSView</string>
 								</object>
 							</array>
-							<string key="NSFrameSize">{543, 267}</string>
+							<string key="NSFrameSize">{621, 364}</string>
 							<reference key="NSSuperview" ref="568628114"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="753890581"/>
@@ -804,7 +804,7 @@
 							<int key="NSDividerStyle">3</int>
 						</object>
 					</array>
-					<string key="NSFrameSize">{543, 267}</string>
+					<string key="NSFrameSize">{621, 364}</string>
 					<reference key="NSSuperview"/>
 					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="273053525"/>

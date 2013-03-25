@@ -19,36 +19,36 @@
         // Add your subclass-specific initialization here.
         MELanguage *english = [[MELanguage alloc] init];
         english.code = @"en";
-        english.name = @"Английский";
+        english.name = NSLocalizedString(@"ENGLISH_TITLE", "English title");
         english.flag = [NSImage imageNamed:@"en.icns"];
         
         MELanguage *russian = [[MELanguage alloc] init];
         russian.code = @"ru";
-        russian.name = @"Русский";
+        russian.name = NSLocalizedString(@"RUSSIAN_TITLE", "Russian title");
         russian.flag = [NSImage imageNamed:@"ru.icns"];
         
         MELanguage *italian = [[MELanguage alloc] init];
         italian.code = @"it";
-        italian.name = @"Итальянский";
+        italian.name = NSLocalizedString(@"ITALIAN_TITLE", "Italian title");
         italian.flag = [NSImage imageNamed:@"it.png"];
         
         MELanguage *ukranian = [[MELanguage alloc] init];
         ukranian.code = @"uk";
-        ukranian.name = @"Украинский";
+        ukranian.name = NSLocalizedString(@"UKRAINIAN_TITLE", "Ukrainian title");
         ukranian.flag = [NSImage imageNamed:@"uk"];
         
         MELanguage *turkey = [[MELanguage alloc] init];
         turkey.code = @"tr";
-        turkey.name = @"Турецкий";
+        turkey.name = NSLocalizedString(@"TURKEY_TITLE", "Turkey title");
         turkey.flag = [NSImage imageNamed:@"tr.png"];
         
-        MELanguage *deutch = [[MELanguage alloc] init];
-        deutch.code = @"de";
-        deutch.name = @"Немецкий";
-        deutch.flag = [NSImage imageNamed:@"de.png"];
+        MELanguage *german = [[MELanguage alloc] init];
+        german.code = @"de";
+        german.name = NSLocalizedString(@"GERMAN_TITLE", "German title");
+        german.flag = [NSImage imageNamed:@"de.png"];
         
-        languagesFrom = [NSArray arrayWithObjects:english, italian, deutch, russian, turkey, ukranian, nil];
-        languagesTo = [NSArray arrayWithObjects:english, italian, deutch, russian, turkey, ukranian, nil];
+        languagesFrom = [NSArray arrayWithObjects:english, italian, german, russian, turkey, ukranian, nil];
+        languagesTo = [NSArray arrayWithObjects:english, italian, german, russian, turkey, ukranian, nil];
         
         userDefaults = [NSUserDefaults standardUserDefaults];
     }

@@ -24,6 +24,7 @@
 		A91FFE1F16FF909D0036F0BD /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A91FFE1416FF909D0036F0BD /* AFURLConnectionOperation.m */; };
 		A91FFE2016FF909D0036F0BD /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A91FFE1616FF909D0036F0BD /* AFXMLRequestOperation.m */; };
 		A91FFE2116FF909D0036F0BD /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A91FFE1816FF909D0036F0BD /* UIImageView+AFNetworking.m */; };
+		A931748F17003B4C00350663 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A931749117003B4C00350663 /* Localizable.strings */; };
 		A9A0695A16FE3D3F005EBFB8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A0695916FE3D3F005EBFB8 /* Cocoa.framework */; };
 		A9A0696416FE3D3F005EBFB8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9A0696216FE3D3F005EBFB8 /* InfoPlist.strings */; };
 		A9A0696616FE3D3F005EBFB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A0696516FE3D3F005EBFB8 /* main.m */; };
@@ -64,6 +65,12 @@
 		A91FFE1616FF909D0036F0BD /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
 		A91FFE1716FF909D0036F0BD /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		A91FFE1816FF909D0036F0BD /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		A931748917003B2D00350663 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/MEDocument.xib; sourceTree = "<group>"; };
+		A931748A17003B2D00350663 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A931748B17003B2D00350663 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A931748C17003B2D00350663 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = ru; path = ru.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A931749017003B4C00350663 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A931749217003B4D00350663 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A9A0695616FE3D3F005EBFB8 /* Marshwort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marshwort.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A0695916FE3D3F005EBFB8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		A9A0695C16FE3D3F005EBFB8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -185,6 +192,7 @@
 				A9A0696016FE3D3F005EBFB8 /* Supporting Files */,
 				A91FFDEF16FF753F0036F0BD /* MELanguage.h */,
 				A91FFDF016FF753F0036F0BD /* MELanguage.m */,
+				A931749117003B4C00350663 /* Localizable.strings */,
 			);
 			path = Marshwort;
 			sourceTree = "<group>";
@@ -237,6 +245,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ru,
 			);
 			mainGroup = A9A0694D16FE3D3F005EBFB8;
 			productRefGroup = A9A0695716FE3D3F005EBFB8 /* Products */;
@@ -265,6 +274,7 @@
 				A91FFE0116FF7FC10036F0BD /* uk.icns in Resources */,
 				A91FFE0216FF7FC10036F0BD /* en.icns in Resources */,
 				A91FFE0416FF7FF30036F0BD /* tr.icns in Resources */,
+				A931748F17003B4C00350663 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,10 +303,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		A931749117003B4C00350663 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A931749017003B4C00350663 /* ru */,
+				A931749217003B4D00350663 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		A9A0696216FE3D3F005EBFB8 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A9A0696316FE3D3F005EBFB8 /* en */,
+				A931748B17003B2D00350663 /* ru */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -305,6 +325,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A9A0696916FE3D3F005EBFB8 /* en */,
+				A931748C17003B2D00350663 /* ru */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
@@ -313,6 +334,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A9A0696F16FE3D3F005EBFB8 /* en */,
+				A931748917003B2D00350663 /* ru */,
 			);
 			name = MEDocument.xib;
 			sourceTree = "<group>";
@@ -321,6 +343,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A9A0697216FE3D40005EBFB8 /* en */,
+				A931748A17003B2D00350663 /* ru */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
