@@ -11,8 +11,10 @@ build/
 !default.perspectivev3
 *.xcworkspace
 !default.xcworkspace
-xcuserdata
+!default.xcuserdata
 profile
 *.moved-aside
 DerivedData
 .idea/
+
+Marshwort.xcodeproj/project.xcworkspace/xcuserdata/amka.xcuserdatad/UserInterfaceState.xcuserstate
