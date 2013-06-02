@@ -14,3 +14,6 @@
 "RUSSIAN_TITLE" = "Русский";
 "TURKEY_TITLE" = "Турецкий";
 "UKRAINIAN_TITLE" = "Украинский";
+
+"GENERAL_TOOLBAR_TITLE" = "Основные";
+"UPDATE_TOOLBAR_TITLE" = "Обновление";
