@@ -302,12 +302,13 @@
 									<reference key="NSSupport" ref="394025339"/>
 									<string key="NSCellIdentifier">_NS:22</string>
 									<reference key="NSControlView" ref="842696266"/>
-									<int key="NSButtonFlags">-2036580352</int>
+									<int key="NSButtonFlags">-2031337472</int>
 									<int key="NSButtonFlags2">163</int>
-									<object class="NSCustomResource" key="NSNormalImage" id="315597484">
+									<object class="NSCustomResource" key="NSNormalImage" id="951751452">
 										<string key="NSClassName">NSImage</string>
-										<string key="NSResourceName">refresh-icon</string>
+										<string key="NSResourceName">reverse</string>
 									</object>
+									<reference key="NSAlternateImage" ref="951751452"/>
 									<string key="NSAlternateContents"/>
 									<string key="NSKeyEquivalent"/>
 									<int key="NSPeriodicDelay">400</int>
@@ -315,7 +316,7 @@
 								</object>
 								<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 							</object>
-							<reference key="NSToolbarItemImage" ref="315597484"/>
+							<reference key="NSToolbarItemImage" ref="951751452"/>
 							<nil key="NSToolbarItemTarget"/>
 							<nil key="NSToolbarItemAction"/>
 							<string key="NSToolbarItemMinSize">{29, 25}</string>
@@ -1763,7 +1764,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">100222</int>
+			<int key="maxID">100223</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -1853,7 +1854,7 @@
 			<string key="NSToolbarPrint">{32, 32}</string>
 			<string key="NSToolbarShowColors">{32, 32}</string>
 			<string key="NSToolbarShowFonts">{32, 32}</string>
-			<string key="refresh-icon">{16, 16}</string>
+			<string key="reverse">{19, 19}</string>
 		</dictionary>
 		<bool key="IBDocument.UseAutolayout">YES</bool>
 	</data>
