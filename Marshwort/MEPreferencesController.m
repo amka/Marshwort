@@ -13,11 +13,10 @@
 @end
 
 @implementation MEPreferencesController
-
 - (void)setupToolbar
 {
-    [self addView:self.generalPreferenceView label:@"General"];
-    [self addView:self.updatesPreferenceView label:@"Updates"];
+    [self addView:self.generalPreferenceView label:NSLocalizedString(@"GENERAL_TOOLBAR_TITLE", "General view title") image:[NSImage imageNamed:@"General.png"]];
+    [self addView:self.updatesPreferenceView label:NSLocalizedString(@"UPDATE_TOOLBAR_TITLE", "Updates view title") image:[NSImage imageNamed:@"Updates.tiff"]];
     
     // Optional configuration settings.
     [self setCrossFade:[[NSUserDefaults standardUserDefaults] boolForKey:@"fade"]];
@@ -26,7 +25,7 @@
 
 + (NSString *)nibName
 {
-    return @"Preferences";
+    return @"PreferenesWindow";
 }
 
 @end

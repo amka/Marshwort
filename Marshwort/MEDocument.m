@@ -79,7 +79,8 @@
 }
 
 - (void)awakeFromNib {
-    [_langsToArrayController setSelectionIndex:3];
+    [_langsToArrayController setSelectionIndex:[userDefaults integerForKey:@"defaultTargetLanguage"]];
+    [_langsFromArrayController setSelectionIndex:[userDefaults integerForKey:@"defaultSourceLanguage"]];
 }
 
 - (NSData *)dataOfType:(NSString *)typeName error:(NSError **)outError

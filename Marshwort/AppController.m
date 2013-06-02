@@ -11,6 +11,18 @@
 
 @implementation AppController
 
++ (void)initialize
+{
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSDictionary *appDefaults = [NSDictionary dictionaryWithObjectsAndKeys:
+                                 @"YES", @"openAtStartup",
+                                 @"0", @"defaultSourceLanguage",
+                                 @"4", @"defaultTargetLanguage",
+                                 @"YES", @"autoCheckUpdates",
+                                 nil];
+    [defaults registerDefaults:appDefaults];
+}
+
 - (IBAction)openPreferences:(id)sender
 {
     [[MEPreferencesController sharedPrefsWindowController] showWindow:nil];
