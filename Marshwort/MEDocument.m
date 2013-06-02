@@ -179,4 +179,5 @@
 {
     [self beginTranslateTimer];
 }
+
 @end

@@ -26,9 +26,9 @@
 @property (weak) IBOutlet NSProgressIndicator *inworkIndicator;
 
 - (IBAction)reverseLanguages:(id)sender;
-
 - (IBAction)changeLanguage:(id)sender;
-- (void)translate:(NSString *)text fromLanguage:(NSString *)from toLanguage:(NSString *)to withFormat:(NSString *)format;
 - (IBAction)beginTranslate:(id)sender;
+
+- (void)translate:(NSString *)text fromLanguage:(NSString *)from toLanguage:(NSString *)to withFormat:(NSString *)format;
 - (void)beginTranslateTimer;
 @end
