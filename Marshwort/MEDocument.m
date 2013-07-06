@@ -10,6 +10,10 @@
 #import "MELanguage.h"
 #import "AFJSONRequestOperation.h"
 
+
+NSString *const kAPIKey = @"trnsl.1.1.20130706T161814Z.815aff234691d9d7.58b3aa2b66ba86bbe1130f5194fa77de72c3bf10";
+NSString *const kAPITranslate = @"https://translate.yandex.net/api/v1.5/tr.json/translate";
+
 @implementation MEDocument
 
 - (id)init
@@ -110,7 +114,7 @@
     
 //    NSException *exception = [NSException exceptionWithName:@"UnimplementedMethod" reason:[NSString stringWithFormat:@"%@ is unimplemented", NSStringFromSelector(_cmd)] userInfo:nil];
 //    @throw exception;
-    [self beginTranslateTimer];
+//    [self beginTranslateTimer];
     return YES;
 }
 
@@ -128,16 +132,16 @@
 
 - (void)translate:(NSString *)text fromLanguage:(NSString *)from toLanguage:(NSString *)to withFormat:(NSString *)format
 {
-    NSURL *url = [NSURL URLWithString:@"http://translate.yandex.net/api/v1/tr.json/translate"];
+    NSURL *url = [NSURL URLWithString:kAPITranslate];
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url
                                                            cachePolicy:NSURLRequestReloadIgnoringCacheData
                                                        timeoutInterval:60.0];
     
     [request setHTTPMethod:@"POST"];
     
-    NSString *postString = [NSString stringWithFormat:@"lang=%@-%@&text=%@", from, to, text];
+    NSString *postString = [NSString stringWithFormat:@"key=%@&lang=%@-%@&text=%@", kAPIKey, from, to, text];
     [request setHTTPBody:[postString dataUsingEncoding:NSUTF8StringEncoding]];
-    
+
     AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
         
         if ([[JSON objectForKey:@"text"] objectAtIndex:0]) {
@@ -179,6 +183,14 @@
 - (void)textDidChange:(NSNotification *)notification
 {
     [self beginTranslateTimer];
+}
+
+-(NSPrintOperation *)printOperationWithSettings:(NSDictionary *)printSettings error:(NSError *__autoreleasing *)outError
+{
+    NSPrintInfo *printInfo = [self printInfo];
+    NSPrintOperation *printOp = [NSPrintOperation printOperationWithView:_translatedTextView
+                                                               printInfo:printInfo];
+    return printOp;
 }
 
 @end
