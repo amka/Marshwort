@@ -1,19 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <channel>
-        <title>Marshwort's Changelog</title>
-        <link>http://meamka.me/Marshwort/appcast.xml</link>
-        <description>Most recent changes with links to updates.</description>
-        <language>en</language>
-        <item>
-            <title>Version 0.1</title>
-            <sparkle:releaseNotesLink>http://meamka.me/Marshwort/0.1.html</sparkle:releaseNotesLink>
-            <pubDate>Sun, 02 Jun 2013 14:10:11 +0400</pubDate>
-            <enclosure url="http://meamka.me/Marshwort/apps/Marshwort-0.1.zip"
-                       sparkle:version="17" sparkle:shortVersionString="0.1"
-                       length="1623481" type="application/octet-stream"
-                       sparkle:dsaSignature="MCwCFA2v+aX/SGvdD+RpXiFahkEys8dpAhRID7ELrOJY8BycuU76RjqcAt7cqg=="/>
-        </item>
-    </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8"?> <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">	<channel>		<title>Marshwort&apos;s Changelog</title>		<link>http://meamka.me/Marshwort/appcast.xml</link>		<description>Most recent changes with links to updates.</description>		<language>en</language>			<item>				<title>Version 0.1.1</title>				<description>Update application for Yandex.Translate API version 1.5</description>				<pubDate>Sat, 06 Jul 2013 20:34:44 +0400</pubDate>				<enclosure url="http://meamka.me/Marshwort/apps/Marshwort-0.1.zip" sparkle:version="19" sparkle:shortVersionString="0.1.1"  length="1623481" type="application/octet-stream" sparkle:dsaSignature="MCwCFDBHiZqK7XRnkFSzRH1D0GVeVaLxAhQCFET1I9dmc7qAvqMS7rw/5VwjRg==" />			</item>			<item>		        <title>Version 0.1</title>		        <sparkle:releaseNotesLink>http://meamka.me/Marshwort/0.1.html</sparkle:releaseNotesLink>		        <pubDate>Sun, 02 Jun 2013 14:10:11 +0400</pubDate>		        <enclosure url="http://meamka.me/Marshwort/apps/Marshwort-0.1.zip" sparkle:version="17" sparkle:shortVersionString="0.1" length="1623481" type="application/octet-stream" sparkle:dsaSignature="MCwCFA2v+aX/SGvdD+RpXiFahkEys8dpAhRID7ELrOJY8BycuU76RjqcAt7cqg=="/>		    </item></channel></rss>
